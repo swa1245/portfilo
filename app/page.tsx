@@ -75,6 +75,7 @@ export default function Home() {
                 <div className="flex flex-wrap gap-2">
                   {[
                     { name: "JavaScript", icon: <FileCode className="w-4 h-4" /> },
+                    { name: "TypeScript", icon: <FileCode className="w-4 h-4" /> },
                     { name: "HTML", icon: <Code2 className="w-4 h-4" /> },
                     { name: "CSS", icon: <Paintbrush className="w-4 h-4" /> },
                     { name: "Java (OOP)", icon: <CircuitBoard className="w-4 h-4" /> }
@@ -94,8 +95,10 @@ export default function Home() {
                 <div className="flex flex-wrap gap-2">
                   {[
                     { name: "React.js", icon: <Box className="w-4 h-4" /> },
+                    { name: "Next.js", icon: <Server className="w-4 h-4" /> },
                     { name: "Node.js", icon: <Server className="w-4 h-4" /> },
                     { name: "Express.js", icon: <Webhook className="w-4 h-4" /> },
+                    { name: "Socket.io", icon: <Settings2 className="w-4 h-4" /> },
                     { name: "Tailwind CSS", icon: <Paintbrush className="w-4 h-4" /> },
                     { name: "GSAP", icon: <FileCode className="w-4 h-4" /> },
                     { name: "Material-UI", icon: <Boxes className="w-4 h-4" /> },
